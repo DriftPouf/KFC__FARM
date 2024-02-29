@@ -12,6 +12,7 @@ void loop() {
 }
 
 // put function definitions here:
+// FDP DE MERDE
 int myFunction(int x, int y) {
   return x + y;
 }

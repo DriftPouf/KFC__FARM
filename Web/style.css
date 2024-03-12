@@ -60,3 +60,93 @@ body {
 .navbar a:hover:before {
     width: 100%;
 }
+
+.navbar .btnLogin {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+}
+
+.navbar .btnLogin:hover {
+    background: black;
+    color: white;
+}
+
+.emb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+.box {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.emb .box input[type="submit"] {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.inputBox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputBox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    padding: 0 35px 0 5px;
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.box .login {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 100%;
+    position: center;
+}
